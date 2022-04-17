@@ -33,7 +33,7 @@ CREATE TABLE order_products(
   
   order_id int,
   product_id int,
-  PRIMARY KEY (order_id,product_id)
+  PRIMARY KEY (order_id,product_id),
   quantity int default 0,
   foreign KEY (order_id) references orders(id),
   foreign KEY (product_id) references products(id),
