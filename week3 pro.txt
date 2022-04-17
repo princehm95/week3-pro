@@ -51,9 +51,9 @@ CREATE TABLE products(
 
 -- insert some values
 INSERT INTO countries VALUES (966, 'Saudi Arabia', 'Asia');
-INSERT INTO users VALUES (246, 'Hassan Alameer', 'hassan.alameer9505@gmail,com', 'm', '202204117 2:06:22 PM', 966);
-INSERT INTO orders VALUES (207874, 154, 'start','202204117 2:10:04 PM');
-INSERT INTO products VALUES (945617, 'DELL PC', 3600, 'valid','202204117 2:30:01 PM' );
+INSERT INTO users VALUES (246, 'Hassan Alameer', 'hassan.alameer9505@gmail,com', 'm', '1000-01-01 00:00:00', 966);
+INSERT INTO orders VALUES (207874, 154, 'start','1000-01-01 00:00:00');
+INSERT INTO products VALUES (945617, 'DELL PC', 3600, 'valid','1000-01-01 00:00:00' );
 INSERT INTO order_products  VALUES (456, 315, 5);
 update countries SET code_id='96';
 delete from products where id='945617';
